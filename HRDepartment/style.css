@@ -1,8 +1,10 @@
 table {
     border-spacing: 0.2rem;
+    margin:auto;
 }
 h1{
     color: #0987b1;
+    text-align: center;
 }
 
 td, th {
@@ -11,12 +13,16 @@ td, th {
 }
 thead tr:nth-child(odd) {
     background: #abd1de;
+    
     }
 tbody tr:nth-child(odd) {
     background: #d1dde1;
     }
-    
-   
+body{
+    background-image:url(whitebuilding.jpg);
+
+}
+
 
     
     
