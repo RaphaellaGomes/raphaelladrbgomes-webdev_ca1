@@ -9,33 +9,40 @@
     rel="stylesheet">
 </head>
 <body>
+    <table id="header">
+        <tr>
+            <td><a href="employee.html">EMPLOYEE</a></td>
+            <td><a href="department.html">DEPARTMENT</a></td>
+            <td><a href="manager_dep.html">MANAGER DEPARTMENT</a></td>
+            <td><a href="jobs.html">JOBS</a></td>
+            <td><a href="salary.html">SALARY</a></td>
+        </tr>
+    </table>
     <h1>Jobs</h1>
 
     <table>
         <thead>
             <tr>
-                <th>ID Job<span class="material-icons" title="Primary-key">star </span></th>
-                <th>Name Employee</th>
-                <th>Job Title</th>
-                <th>Date</th>
+                <th>ID Job <i>(Integer)</i><span class="material-icons" title="Primary-key">star </span></th>
+                <th>Name Employee <i>(String)</i></th>
+                <th>Job <i>(String)</i></th>
+                <th>Date <i>(Date)</i></th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>001</td>
-                <td>Sean</td>
+                <td rowspan="3">Sean</td>
                 <td>Web developer Jr</td>
                 <td>05/01/2020</td>
             </tr>
             <tr>
                 <td>002</td>
-                <td>Sean</td>
                 <td>Web developer Pl</td>
                 <td>05/01/2021</td>
             </tr>
             <tr>
                 <td>003</td>
-                <td>Sean</td>
                 <td>Web developer Sr</td>
                 <td>05/01/2022</td>
             </tr>
@@ -65,13 +72,12 @@
             </tr>
             <tr>
                 <td>008</td>
-                <td>Conn</td>
+                <td rowspan="2">Conn</td>
                 <td>Quality Assurance Pl</td>
                 <td>10/10/2018</td>
             </tr>
             <tr>
                 <td>009</td>
-                <td>Conn</td>
                 <td>Quality Assurance Sr</td>
                 <td>05/09/2020</td>
             </tr>
