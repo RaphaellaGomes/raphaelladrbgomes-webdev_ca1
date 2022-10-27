@@ -4,18 +4,18 @@ table{
     font-family: 'Calibri';
     margin: 25px auto;
     border-spacing: 0;
-
+    width: 100%;
 }
-h1{
+h1, h2{
     color: #0987b1;
     text-align: center;
     font-family: 'Calibri';
-}
+}   
 
-    
 td, th{
-    border: 2px solid #999;
-    padding: 0.5rem;
+    padding: 0.25rem;
+    text-align: center;
+    border: 1px solid #999;
 }
 thead tr:nth-child(odd){
     background: #abd1de;
@@ -33,9 +33,11 @@ body{
 
 #header{
     background-color: #2d6bb2; 
-    font-size: large; 
-    width: 50%; 
+    font-size: large;  
     text-align: center;
+    border-collapse: collapse;
+    font-family: 'Calibri';
+    width: 100%;
+    border-spacing: 0;
+    margin: 25px auto;
 }
-    
-    
